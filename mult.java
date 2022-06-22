@@ -1,11 +1,11 @@
-//MULTIPLICATION OF TWO NUMBERS
-class mult{
+//DIVITION OF TWO NUMBERS
+class div{
 	public static void main(String[] args) {
-	  int a=3; //1st number
-	  int b=5; //2nd number
-          int c= a*b; //Multiplication
+	  int a=10; //1st number
+	  int b=2; //2nd number
+          int c= a/b; //Divition
 		
 	    //output
  	  System.out.println("a =" + a);
  	  System.out.println("b = " + b);
-	  System.out.println("Multiplication of A and B = " + c);
+	  System.out.println("DIVITION of A and B = " + c);
