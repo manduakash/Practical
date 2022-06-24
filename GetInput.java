@@ -5,8 +5,8 @@
 //JAVA PROGRAM TO GET A INPUT FROM USER
 
 import javax.swing.*; //importing packages for GUI dialog box
-import java.util.Calendar;
-import java.util.GregorianCalendar;
+import java.util.Calendar; //importing calendar 
+import java.util.GregorianCalendar; //importing GregorianCalendar 
 
 
 class GetInput{
@@ -14,8 +14,8 @@ class GetInput{
 	public static void main(String args[]){
 		
 		
-		JFrame jFrame = new JFrame();
-		GregorianCalendar time = new GregorianCalendar();
+		JFrame jFrame = new JFrame(); //using JFrame class for GUI dialog box
+		GregorianCalendar time = new GregorianCalendar(); //using GregorianCalendar cls
 		
 		//taking input from user
 		String getName = JOptionPane.showInputDialog(jFrame, "Type your name in the box"); 
