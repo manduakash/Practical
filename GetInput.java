@@ -15,26 +15,26 @@ class GetInput{
 		
 		
 		JFrame jFrame = new JFrame(); //using JFrame class for GUI dialog box
-		GregorianCalendar time = new GregorianCalendar(); //using GregorianCalendar cls
+		GregorianCalendar time = new GregorianCalendar(); //using GregorianCalendar class for taking current time
 		
-		//taking input from user
-		String getName = JOptionPane.showInputDialog(jFrame, "Type your name in the box"); 
+		//taking user input from a GUI dialog box
+		String getName = JOptionPane.showInputDialog(jFrame, "Type your name in the box");  
 		
-		//storing time in a variable
+		//storing current time in a hour variable
 		int hour = time.get(Calendar.HOUR_OF_DAY); 
 		
 		//greeting logic
 		String greeting = null;
-		if (hour >= 0 && hour < 12)
+		if (hour >= 0 && hour < 12) //good morning logic
 			greeting = "Good morning!";
-		else if (hour >= 12 && hour < 17)
+		else if (hour >= 12 && hour < 17) //good afternoon logic
 			greeting = "Good afternoon!";
-		else if (hour >= 17 && hour < 21)
+		else if (hour >= 17 && hour < 21) //good evening logic
 			greeting = "Good evening!";
-		else if (hour >= 21 && hour <=24)
+		else if (hour >= 21 && hour <=24) //good night logic
 			greeting = "Good night!";
 		
 		//output
-		JOptionPane.showMessageDialog(jFrame, "Hello " + getName + "... " + greeting);
+		JOptionPane.showMessageDialog(jFrame, "Hello " + getName + "... " + greeting); //concatinating message, username and greeting
 	}
 }
