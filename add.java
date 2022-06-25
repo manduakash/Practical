@@ -1,15 +1,22 @@
+//@Author Akash Singh
 //ADDITION OF TWO NUMBERS
+
+import javax.swing.*; // importing packages for GUI dialog boxes
+
 class add{
+	//main method
 	public static void main(String[] args) {
-	  int a=5; //1st number
-	  int b=10; //2nd number
-          int c= a+b; //sum
 		
-	  //output	
- 	  System.out.println("a =" + a);
- 	  System.out.println("b = " + b);
-	  System.out.println("Addition of A and B = " + c);
-	       
-	  
+		JFrame jFrame = new JFrame(); //using jFrame class for GUI dialog boxes
+	
+		String a = JOptionPane.showInputDialog(jFrame,"Type 1st number for Addition"); //taking input from user
+		String b = JOptionPane.showInputDialog(jFrame, "Type 2nd number for Addition"); //taking input from user
+		
+		//changing data type
+		int a_Int = Integer.parseInt(a);
+		int b_Int = Integer.parseInt(b);
+		
+		//output
+		JOptionPane.showMessageDialog(jFrame,"Additon of " +a+ " and " +b+ " = " + (a_Int+b_Int));
   }
 }
