@@ -1,0 +1,34 @@
+class ParameterOfRectangle{
+	int side1;
+	int side2;
+
+	void insertSides(int a, int b) { //taking the input as parameters 
+		
+		side1 = a;
+		side2 = b;
+	}
+
+	void parameter() {
+		System.out.println(2*(side1+side2)); //logic
+	}
+}
+
+
+public class ParaofRectangle{
+
+	public static void main(String[] args) { //main method
+		
+		ParameterOfRectangle r1 = new ParameterOfRectangle(); // creating r1 object
+		ParameterOfRectangle r2 = new ParameterOfRectangle(); //creating r2 object
+		
+		//giving the inputs as parameter
+		r1.insertSides(8,9); 
+		r2.insertSides(5,7);
+		
+		//showing the output
+		r1.parameter();
+		r2.parameter();
+
+	}
+
+}
