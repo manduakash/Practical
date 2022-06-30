@@ -1,8 +1,12 @@
+//@Author Akash Singh
+//Java program to find the area of square
 
 class SquareClass{
+	//initializing the side variable
 	int side;
 
-	void insertSides(int a) { //taking the input as parameters
+	void insertSides(int a) { 
+		//taking the input as parameters assigning it to side variable
 		side = a;
 	}
 
