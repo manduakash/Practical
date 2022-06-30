@@ -1,9 +1,14 @@
 
+//@Author Akash Singh
+//Java program to find the area of rectangle
+
 class Rectangle{
+	//initializing side variables
 	int lenght;
 	int width;
 
-	void insertSides(int a, int b) { //taking the input as parameters 
+	void insertSides(int a, int b) { 
+		//taking the input as parameters assigning it to side variable
 		lenght = a;
 		width = b;
 	}
