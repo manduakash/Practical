@@ -19,7 +19,7 @@ class PerimeterOfRectangle{
 }
 
 
-public class PeriofRectangle{
+public class PeriOfRectangle{
 
 	public static void main(String[] args) { //main method
 		
