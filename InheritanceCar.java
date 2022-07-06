@@ -27,6 +27,10 @@ public class InheritanceCar { // main class
 	public static void main(String[] args) { //main method
 		
 		Aulto c = new Aulto(); //creating an object of Aulto 
+		
+		/*here vehicle and car constructor will be invoked
+		because Aulto is containing all properties and methods of their parent classes*/
+		
 		c.run();// output
 
 	}
