@@ -52,9 +52,6 @@ class ResultEncapsulate{
 	public double getPercentage() {	// getter for percentage
 		return (this.sum/this.totalMarks)*100;
 	}
-	
-	
-	
 }
 public class Result_Encapsulate {
 
@@ -87,7 +84,5 @@ public class Result_Encapsulate {
 		System.out.println("User obtain total marks = "+ obj.getObtainMarks());
 		System.out.println("Here it is your percentage = "+ obj.getPercentage()+"%");
 		scan.close();
-		
 	}
-
 }
