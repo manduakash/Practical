@@ -1,3 +1,4 @@
+//comparing one array list to another one
 import java.util.ArrayList;
 
 public class TestArrayList_Compare {
